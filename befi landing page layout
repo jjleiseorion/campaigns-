@@ -1,0 +1,201 @@
+<div id="insert-form"></div>
+<header class="header">
+  <div class="branding">
+    <div class="container">
+      <div class="row">
+        <div class="logo__container">[PIECE_REF order="9"]</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero">
+    <div class="hero-image__container">
+      <img
+        src="https://orion.com/wp-content/uploads/2022/12/befi20-lp-hero.jpg"
+        class="hero-image"
+        alt=""
+        height=""
+        width=""
+        data-id="56922"
+      />
+    </div>
+    <div class="page-headline">
+      <div class="container">
+        <div class="row headline-container">
+          <div class="col col-md-7">
+            <img
+              src="https://orion.com/wp-content/uploads/2022/12/befi20-logo.png"
+              alt="BeFi20 Logo"
+              style="margin-left: -5px; margin-bottom: -30px"
+            />
+            <h1 class="headline">[PIECE_REF order="4"]</h1>
+            <div
+              class="headline-description"
+              id="header-text"
+              pardot-region="Page Sub-Headline"
+              pardot-region-type="simple"
+              data-id="56913"
+            >
+              [PIECE_REF order="5"]
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+<div class="container form-position">
+  <div class="row">
+    <div
+      class="col-sm-8 col-sm-offset-2 col-md-5 col-md-offset-7 form-container"
+    >
+      <div class="form-container-inner">
+        <a name="form"></a>
+        <div
+          class="form-header"
+          id="form-header"
+          pardot-region="Form Headline"
+          pardot-region-type="simple"
+          data-id="56916"
+        >
+          [PIECE_REF order="6"]
+        </div>
+        <form
+          action="https://financeinsights.net/thankyou/"
+          class="mt-4"
+          method="post"
+          class="form"
+        >
+          <div class="px-md-5">
+            <input
+              type="text"
+              class="form-control mb-3"
+              placeholder="First Name"
+              required
+              pattern="[a-zA-Z]+"
+              name="name[]"
+              title="Please enter a valid name. No numbers or special characters are allowed."
+            />
+            <input
+              type="text"
+              class="form-control mb-3"
+              placeholder="Last Name"
+              required
+              pattern="[a-zA-Z]+"
+              name="name[]"
+              title="Please enter a valid name. No numbers or special characters are allowed."
+            />
+            <input
+              type="email"
+              class="form-control mb-4"
+              placeholder="Email Address"
+              required
+              name="email"
+            />
+          </div>
+          <input type="hidden" name="vessel-id" value="[VESSEL_ID_HASH]" />
+          <input type="hidden" name="campaign-id" value="[CAMPAIGN_ID_HASH]" />
+          <input type="hidden" name="step-id" value="[STEP_ID_HASH]" />
+          <input
+            type="hidden"
+            name="target-step-id"
+            value='[STEP_ID order="2"]'
+          />
+          <button type="submit" class="btn btn-primary btn-block px-4">[PIECE_REF order="16"]</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<main class="page-body">
+  <section class="section-1 bg-white dip">
+    <div class="container">
+      <div class="row two-col__row">
+        <div class="col col-sm-6 content-left resource-img-container">
+          <img
+            pardot-region="Resource Thumbnail Image"
+            pardot-region-type="image"
+            class="resource-img"
+            alt=""
+            height=""
+            src="https://orion.com/wp-content/uploads/2022/09/OAT_Orion_Compliance_Navigating_EBook_Roll_Image_540x680.png"
+            width=""
+            data-id="56901"
+          />
+        </div>
+        <div class="col col-sm-6 content-right">
+          <p
+            class="category"
+            pardot-region="Resource Category"
+            pardot-region-type="simple"
+            data-id="56925"
+          >
+            eBook
+          </p>
+          <h3 pardot-region="Resource Headline" data-id="56904">
+            [PIECE_REF order="18"]
+          </h3>
+          <div class="content-copy">
+            <div data-id="56928">[PIECE_REF order="19"]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Callout -->
+  <section class="callout--bottom">
+    <div class="container">
+      <div class="row">
+        <div class="col-7 offset-md-5">
+          [PIECE_REF order="10"]
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col col-sm-10 compliance">
+        <small
+          pardot-region="Compliance Code"
+          aria-hidden="true"
+          data-id="56943"
+          >1640-OAT-9/8/2022</small
+        ><br /><br /><em
+          ><small
+            class="disclaimer"
+            pardot-region="Legal Disclaimer"
+            pardot-region-type="simple"
+            >[PIECE_REF order="11"]</small
+          ></em
+        >
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+  integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+  integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+  crossorigin="anonymous"
+></script>
+<script
+  src="https://cdn.jsdelivr.net/npm/jquery-validation-bootstrap-tooltip@0.10.2/jquery-validate.bootstrap-tooltip.min.js"
+  integrity="sha256-I45rK0P1Xaek9ab7gGl9sSRGntTaVm49/eob6mRWKaQ="
+  crossorigin="anonymous"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://assets.snappykraken.com/global/js/exit-intent.min.js"></script>
+<script src="https://snappykraken-assets.s3.amazonaws.com/campaigns/_SK8_LGs/8.23_Sensitive_Truth_About_Aging/assets/js/scripts.min.js"></script>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+<script type="text/javascript">
+  if ($(window).width() > 992) {
+    $(".form-position").appendTo("#insert-form");
+  }
+</script>
